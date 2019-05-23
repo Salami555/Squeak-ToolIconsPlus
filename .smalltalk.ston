@@ -1,0 +1,14 @@
+SmalltalkCISpec {
+	#loading : [
+		SCIMetacelloLoadSpec {
+			#baseline : 'ToolIconsPlus',
+			#platforms : [ #squeak ],
+			#load : [ 'tests' ]
+		}
+	],
+	#testing : {
+		#categories : [ 'ToolIconsPlus-Tests' ],
+		#failOnZeroTests : true,
+		#onWarningLog : true
+	}
+}
